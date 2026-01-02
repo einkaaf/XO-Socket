@@ -1,0 +1,11 @@
+server:
+  port: "8080"
+  jwt_secret: "SUPER_SECRET_KEY_123"
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "yourpassword"
+  dbname: "xo_game"
+  sslmode: "disable"
